@@ -1,0 +1,235 @@
+input[type="text"],
+input[type="date"],
+select {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 520px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+textarea,
+input[type="date"]:focus,
+input[type="number"],
+input[type="radio"],
+.mes:focus {
+  border-bottom: 2px solid #16a085;
+  color: #121312;
+  transition: 0.2s ease;
+}
+textarea {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type="submit"],
+input[type="reset"]
+ {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+
+
+.centrar {
+ width: 800px;
+  background-color: #fffcfc;
+  margin-left: 70px;
+  border-left: ridge;
+ 
+  
+  
+
+}
+hr {
+  color: #16a085;
+  width: 100%;
+}
+form {
+  margin-left: 50px;
+  
+}
+
+
+
+
+
+
+
+
+.sidebar {
+  background-color: #16a085;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /*overflow-x: hidden;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 40%;
+  height: auto;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+  border-left: 4px solid transparent;
+}
+
+.menu li a {
+  display: block;
+  color: #f8f3f3;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+
+.menu li:hover {
+  background-color: #38ce44;
+  border-radius: 15px;
+  margin-left:10px;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.ini {
+  text-align: center;  
+  display: block;
+}
+.inicio {
+ 
+  color: #f8f3f3;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.inicio:hover {
+  margin-left:10px;
+}
+
+.logocentral {
+display:flex;
+justify-content: center;
+}
+.logocentral img{
+width: 300px;
+}
+
+
+.fecha-nacimiento-mes {
+width: 100px;
+display: inline-block;
+}
+.fecha-nacimiento-ano {
+  width: 20px;
+}
+
+input[type="number"] {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 100px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.2s ease;
+}
+
+label {
+  display: flex;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 520px;
+  height: 32px;
+  border: none;
+ align-items: end;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.2s ease;
+
+}
+
+button {
+  margin-top: 28px;
+  width: 500px;
+  height: 32px;
+  background: #16a085;
+ 
+  border-radius: 10px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+
+button:hover {
+ border-color: #38ce44;
+}
+
+.tituloOpciones {
+  font-size: 45px;
+}
+
+input[type="radio"]{
+ margin-left: 100px;
+  width: 20px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.2s ease;
+}
+
+
+
+

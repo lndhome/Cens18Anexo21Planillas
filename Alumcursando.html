@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+	<link rel="stylesheet" href="estilo.css">
+	<title>Generacion de Planillas</title>
+</head>
+<body>
+	<div class="sidebar">
+		<br>
+		<div class="logo">
+		  <img src="imagenes/logo.png" >
+		</div>
+		<hr>
+		
+	
+		<p class="ini"><a href="index.html"class="inicio"><ion-icon name="home-outline"></a></p>	
+			<ul class="menu">
+		
+				<li><a href="formulario1.html"><ion-icon name="arrow-forward-outline"></ion-icon> Const Matricula</a></li>
+				  <li><a href="formulariogral.html"><ion-icon name="arrow-forward-outline"></ion-icon> Constancia Gral</a></li>
+				  <li ><a href="formularioConsgeneral.html"><ion-icon name="arrow-forward-outline"></ion-icon>Constancia Policia</a></li>
+				  <li ><a href="PasesOpciones.html"><ion-icon name="arrow-forward-outline"></ion-icon>Pases</a></li>
+				  <li><a href="tituloentramire.html"><ion-icon name="arrow-forward-outline"></ion-icon> Titulo en Tramite</a></li>
+				  <li><a href="Alumcursando.html"><ion-icon name="arrow-forward-outline"></ion-icon> Alumno Reg. Cursando ultimo año</a></li>
+				  <li><a href="finalizacionCursada.html"><ion-icon name="arrow-forward-outline"></ion-icon> Finalizacion de Cursada</a></li>
+				
+				</ul>
+	  </div>
+	  
+	  <div class="main-content">
+		<div class="centrar">
+			<h1>Constacia de Alumno Cursando el ultimo año</h1>
+		
+			
+			<form action="procesarAlumnosCurs.php" method="POST">
+				<p><h2>Datos del Alumno</h2>
+			    <input type="text" name="apellido" placeholder="Apellido/s" required>
+				<input type="text" name="nombres" placeholder="Nombres/s" required>
+				<input type="text" name="dni" placeholder="DNI" required>
+				<select name="titulo" id="">
+					<option value="" disabled selected>Seleccione Titulo</option>
+					<option value="PERITO EN ACTIVIDADES PETROLERAS">PERITO EN ACTIVIDADES PETROLERAS</option>
+					<option value="PERITO COMERCIAL ESPECIALIZADO EN ADMINISTRACION DE EMPRESAS">PERITO COMERCIAL ESPECIALIZADO</option>
+					<option value="PERITO EN RECURSOS NATURALES">PERITO EN RECURSOS NATURALES</option>
+					<option value="PERITO AUXILIAR EN SEGURIDAD E HIGIENE DEL TRABAJO">PERITO AUXILIAR EN SEGURIDAD E HIGIENE DEL TRABAJO</option>
+				</select>
+            <input type="text" name="MateriaAd" placeholder="Materias Adeudadas">    
+			
+			<input type="text" name="dia" placeholder="Dia" />
+				<select id="mes" name="mes" class="mes" >
+					<option value="" disabled selected>Mes</option>
+					<option value="Febrero">Febrero</option>
+					<option value="Marzo">marzo</option>
+					<option value="Abril">Abril</option>
+					<option value="Mayo">Mayo</option>
+					<option value="Junio">Junio</option>
+					<option value="Julio">Julio</option>
+					<option value="Agosto">Agosto</option>
+					<option value="Septiembre">Septiembre</option>
+					<option value="Octubre">Octubre</option>
+					<option value="Noviembre">Noviembre</option>
+					<option value="Diciembre">Diciembre</option>
+				  </select>
+				  <select id="ano" name="ano" class="mes">
+					<option value="" disabled selected>Año</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+					<option value="2025">2025</option>
+					<option value="2026">2026</option>
+				  </select>
+				  
+				
+				<input type="submit" value="Generar">
+				<input type="reset" value="Borrar">
+			</form>
+
+	  </div>
+	</div>
+	  
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+    
+    
+</body>
+</html>
